@@ -22,7 +22,8 @@ import { ProducrDetailComponent } from './modules/pages/producr-detail/producr-d
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
