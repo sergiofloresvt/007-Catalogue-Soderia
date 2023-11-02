@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./card-product.component.css']
 })
 export class CardProductComponent implements OnInit {
-  produts : Product []=[]
+  products: Product[] = [];
 
   constructor(
     private productService: ProductService,
@@ -25,13 +25,13 @@ export class CardProductComponent implements OnInit {
   todos los productos ya que todos llevan un estructura igual  */
   
   RoutesNav(){
-    this.route.paramMap.subscribe(params =>{
+    this.route.paramMap.subscribe(params => {
       const categories = params.get('categories');
-      if(categories){
-        this.productService.getProductsByCategory(categories).subscribe(data =>{
-          this.produts = data
+      if (categories) {
+        this.productService.getProductsByCategory(categories).subscribe(data => {
+          this.products = data;
         });
       }
-    })
+    });
   }
 }

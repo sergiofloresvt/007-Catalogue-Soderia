@@ -1,12 +1,11 @@
 <h2>Lista de productos</h2>
-
-<div *ngFor="let product of produts">
+<div *ngFor="let product of products">
     <div class="card">
-        <img [src]="product.img" alt="{{ product.name }}">
-        <div class="card-body">
-            <h5 class="card-title">{{ product.name }}</h5>
-            <p class="card-text">{{ product.description }}</p>
-            <p class="card-text">{{ product.marca }}</p>
-        </div>
+      <img [src]="product.img" alt="{{ product.name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.description }}</p>
+        <p class="card-text">Marca: {{ product.marca }}</p>
+      </div>
     </div>
-</div>
+  </div>
