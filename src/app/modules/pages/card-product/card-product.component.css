@@ -1,3 +1,16 @@
+.product-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Divide el espacio en 4 columnas iguales */
+  gap: 5px; /* Espacio entre las tarjetas */
+}
+
+/* Media query para reducir a 2 elementos en una fila cuando la pantalla es más estrecha */
+@media screen and (max-width: 768px) {
+  .product-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .card {
     background-color: white;
     color: red;
@@ -5,6 +18,8 @@
     transition: 0.3s;
     border-radius: 5px;
     margin: 10px; /* Márgenes para espaciar las tarjetas */
+  
+    
   }
   
   .card:hover {
@@ -13,4 +28,5 @@
   img{
     width: 100px;
     height:100px;
+ 
   }

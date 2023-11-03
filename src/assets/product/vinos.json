@@ -30,5 +30,13 @@
     "category": "Vinos",
     "description": "Un Malbec de alta gama con cuerpo y complejidad.",
     "img": "/assets/img/vinos/estanciamendoza.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Malbec Reserva Especial",
+    "marca": "Bodega D",
+    "category": "Vinos",
+    "description": "Un Malbec de alta gama con cuerpo y complejidad.",
+    "img": "/assets/img/vinos/estanciamendoza.jpg"
   }
 ]
