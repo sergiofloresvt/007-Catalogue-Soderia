@@ -1,0 +1,60 @@
+/* Estilos para el carrusel */
+
+
+.carousel {
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Para que las imágenes se ajusten al contenedor sin deformarse */
+  }
+  
+  .carousel-inner {
+    text-align: center;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.6); /* Fondo oscuro para el texto de la leyenda */
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+  }
+  
+  /* Estilos para los indicadores (puntos) */
+  .carousel-indicators {
+    text-align: center;
+  }
+  
+  .carousel-indicators button {
+    background-color: #777;
+    border: 1px solid #333;
+    border-radius: 50%; /* Hace que los puntos sean circulares */
+    width: 10px;
+    height: 10px;
+    margin: 0 5px; /* Espaciado entre los puntos */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333; /* Estilo para el punto activo */
+  }
+  
+  /* Estilos para los controles (flechas) */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: auto;
+    font-size: 30px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+  }

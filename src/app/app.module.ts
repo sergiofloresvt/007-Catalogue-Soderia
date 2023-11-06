@@ -12,6 +12,8 @@ import { NavComponent } from './modules/shared/nav/nav.component';
 import { CardProductComponent } from './modules/pages/card-product/card-product.component';
 import { HomeComponent } from './modules/pages/home/home.component';
 import { ProducrDetailComponent } from './modules/pages/producr-detail/producr-detail.component';
+import { CarruselComponent } from './modules/pages/carrusel/carrusel.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ProducrDetailComponent } from './modules/pages/producr-detail/producr-d
     NavComponent,
     CardProductComponent,
     HomeComponent,
-    ProducrDetailComponent
+    ProducrDetailComponent,
+    CarruselComponent,
+  
   ],
   imports: [
     BrowserModule,

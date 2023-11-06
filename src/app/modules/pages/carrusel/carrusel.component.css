@@ -1,0 +1,4 @@
+#carouselExampleIndicators {
+    max-width: 1200px; /* Ancho máximo deseado para el carrusel */
+    margin: 0 auto; /* Para centrar horizontalmente en la página */
+}
