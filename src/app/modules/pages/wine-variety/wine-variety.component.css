@@ -35,7 +35,6 @@
     height: 75%;
     margin: auto;
     display: block;
-
   }
  
   .card-body{
@@ -69,29 +68,3 @@
     background-color: #24679f;
     box-shadow: 0px 0px 10px rgb(14, 76, 128) inset;
 } 
-
-  /*MENU DESPLEGABLE*/
-  .sidebar {
-    width: 200px; /* Ancho de la barra lateral */
-    padding: 20px; /* Espaciado interno de la barra lateral */
-    background-color: #f1f1f1; /* Color de fondo de la barra lateral */
-  }
-  
-  .sidebar h2 {
-    color: #333; /* Color del texto del título de la barra lateral */
-  }
-  
-  .sidebar ul {
-    list-style-type: none; /* Elimina los estilos de la lista */
-    padding: 0;
-  }
-  
-  .sidebar li {
-    padding: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .sidebar li:hover {
-    background-color: #ddd; /* Cambia el color de fondo al pasar el ratón sobre un elemento de la lista */
-  }

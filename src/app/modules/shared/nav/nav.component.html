@@ -9,26 +9,46 @@
      
   </ul>
 </nav> -->
+<!-- <nav class="navbar">
+  <div class="logo">PUCCI</div>
+  <ul class="nav-links">
+    <li>
+      <a class="nav-link" [routerLink]="'/home'">HOME</a>
+    </li>
+    <li>
+      <a class="nav-link" [routerLink]="['/productos', 'vinos']">Vino</a>
+    </li>
+    <ul>
+      <li>
+        <a class="nav-link" [routerLink]="['/productos', 'vinos']">Vino</a>
+      </li>
+    </ul>
+    <li>
+      <a class="nav-link" [routerLink]="['/productos', 'gaseosas']">Gaseosas</a>
+    </li>
+  </ul>
+
+</nav> -->
+
+<!--Prueba 12/11-->
+<!--INICIO DE LA MENU-->
+
 <nav class="navbar">
   <div class="logo">PUCCI</div>
   <ul class="nav-links">
     <li>
-      <a class="nav-link" [routerLink]="['/productos', 'vinos']">Vino</a>
+      <a class="nav-link" [routerLink]="'/home'">HOME</a>
     </li>
-    <li>
-      <a class="nav-link" [routerLink]="['/productos', 'gaseosas']">Gaseosas</a>
-    </li>
-    <li>
-      <a class="nav-link" [routerLink]="['/productos', 'gaseosas']">Gaseosas</a>
+    <li class="dropdown">
+      <a class="nav-link" [routerLink]="['/productos', 'vinos']">Vinos</a>
+      <div class="dropdown-content">
+        <a *ngFor="let variety of varieties" [routerLink]="['/productos', 'vinos', variety]">{{ variety }}</a>
+      </div>
+      
     </li>
     <li>
       <a class="nav-link" [routerLink]="['/productos', 'gaseosas']">Gaseosas</a>
     </li>
   </ul>
-  <div class="hamburger">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </div>
 </nav>
 

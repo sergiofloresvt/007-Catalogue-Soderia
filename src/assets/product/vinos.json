@@ -4,30 +4,34 @@
     "name": "Vino Tinto Reserva",
     "marca": "Bodega A",
     "category": "Vinos",
+    "variety":"Malbec-Suavignot",
     "description": "Un vino tinto con cuerpo y sabor intenso.",
-    "img": "vino_tinto_reserva.jpg"
+    "img": "/assets/img/vinos/estanciamendoza.jpg"
   },
   {
     "id": 2,
     "name": "Chardonnay Premium",
     "marca": "Bodega B",
     "category": "Vinos",
+    "variety":"Chardonnay",
     "description": "Un vino blanco seco y elegante con notas de frutas tropicales.",
-    "img": "chardonnay_premium.jpg"
+    "img": "/assets/img/vinos/estanciamendoza.jpg"
   },
-  {
+  { 
     "id": 3,
     "name": "Merlot Clásico",
     "marca": "Bodega C",
     "category": "Vinos",
+    "variety":"Syrah",
     "description": "Un vino tinto suave y afrutado con matices de ciruela y vainilla.",
-    "img": "merlot_clasico.jpg"
+    "img": "/assets/img/vinos/estanciamendoza.jpg"
   },
   {
     "id": 4,
-    "name": "Malbec Reserva Especial",
+    "name": "Malbec ",
     "marca": "Bodega D",
     "category": "Vinos",
+    "variety":"Malbec",
     "description": "Un Malbec de alta gama con cuerpo y complejidad.",
     "img": "/assets/img/vinos/estanciamendoza.jpg"
   },
@@ -36,6 +40,7 @@
     "name": "Malbec Reserva Especial",
     "marca": "Bodega D",
     "category": "Vinos",
+    "variety":"Malbec",
     "description": "Un Malbec de alta gama con cuerpo y complejidad.",
     "img": "/assets/img/vinos/estanciamendoza.jpg"
   }

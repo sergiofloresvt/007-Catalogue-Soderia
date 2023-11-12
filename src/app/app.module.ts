@@ -13,6 +13,8 @@ import { CardProductComponent } from './modules/pages/card-product/card-product.
 import { HomeComponent } from './modules/pages/home/home.component';
 import { ProducrDetailComponent } from './modules/pages/producr-detail/producr-detail.component';
 import { CarruselComponent } from './modules/pages/carrusel/carrusel.component';
+import { WineVarietyComponent } from './modules/pages/wine-variety/wine-variety.component';
+import { SidenavComponent } from './modules/shared/sidenav/sidenav.component';
 
 
 @NgModule({
@@ -25,6 +27,9 @@ import { CarruselComponent } from './modules/pages/carrusel/carrusel.component';
     HomeComponent,
     ProducrDetailComponent,
     CarruselComponent,
+
+    WineVarietyComponent,
+    SidenavComponent,
   
   ],
   imports: [

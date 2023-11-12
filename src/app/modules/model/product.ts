@@ -3,6 +3,7 @@ export interface Product{
     name: string,
     marca: string,
     category: string
+    variety?: string
     description: string,
-    img: string,
+    img?: string,
 }

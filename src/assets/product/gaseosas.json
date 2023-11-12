@@ -4,28 +4,21 @@
       "name": "Coca-Cola",
       "marca": "The Coca-Cola Company",
       "description": "Refrescante gaseosa con sabor a cola.",
-      "img": "coca_cola.jpg"
+      "img": "/assets/img/gaseosas/coca.jpg"
     },
     {
       "id": 2,
-      "name": "Pepsi",
-      "marca": "PepsiCo",
-      "description": "Gaseosa con sabor cola y un toque de limón.",
-      "img": "pepsi.jpg"
-    },
-    {
-      "id": 3,
       "name": "Sprite",
       "marca": "The Coca-Cola Company",
-      "description": "Bebida gaseosa con sabor a limón y lima.",
-      "img": "sprite.jpg"
+      "description": "Gaseosa con sabor de limónada.",
+      "img":"/assets/img/gaseosas/sprite.jpeg"
     },
     {
       "id": 4,
       "name": "Fanta Naranja",
       "marca": "The Coca-Cola Company",
       "description": "Gaseosa con refrescante sabor a naranja.",
-      "img": "fanta_naranja.jpg"
+      "img": "/assets/img/gaseosas/fanta.jpeg"
     }
   ]
   

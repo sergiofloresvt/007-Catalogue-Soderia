@@ -3,13 +3,17 @@ import { Product } from '../../model/product';
 import { ProductService } from '../../services/product.service';
 import { ActivatedRoute } from '@angular/router';
 
+
 @Component({
   selector: 'app-card-product',
   templateUrl: './card-product.component.html',
   styleUrls: ['./card-product.component.css']
 })
 export class CardProductComponent implements OnInit {
-  products: Product[] = [];
+  products: Product[] =[];
+  //Lista para nombres de variedad de vino
+  varieties: string[] = []; 
+  winesVarieties: Product []=[];
 
   constructor(
     private productService: ProductService,
@@ -17,6 +21,12 @@ export class CardProductComponent implements OnInit {
   ){}
   ngOnInit(): void {
     this.RoutesNav();
+    // this.getVarieties();
+
+    // this.productService.getProducts().subscribe((products) => {
+    //   this.products = products;
+    // });
+ 
   }
 
   /*Metodo para enrutar lo selecionado en la nav
@@ -28,10 +38,29 @@ export class CardProductComponent implements OnInit {
     this.route.paramMap.subscribe(params => {
       const categories = params.get('categories');
       if (categories) {
-        this.productService.getProductsByCategory(categories).subscribe(data => {
-          this.products = data;
+        this.productService.getProductsByCategory(categories).subscribe(dato => {
+          this.products = dato;//por aca anda el error
+        }, error =>{
+          console.error('Error al obtener la ruta',error)
         });
       }
     });
+
   }
+  // //Metodo para traer todas las variedades disponibles
+  // getVarieties(){
+  //  this.productService.getWinesByVarieties().subscribe(varieties =>{
+  //   this.varieties = varieties;
+  //  })
+  // }
+
+  // onSelectVariety(variety: string) {
+  //   this.productService.getProductsByVariety(variety).subscribe((filteredProducts) => {
+  //     this.winesVarieties = filteredProducts;
+  //   });
+  // }
+
 }
+
+
+
