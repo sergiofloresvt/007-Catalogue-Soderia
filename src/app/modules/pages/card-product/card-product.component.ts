@@ -15,6 +15,7 @@ export class CardProductComponent implements OnInit {
   varieties: string[] = []; 
   winesVarieties: Product []=[];
 
+  headerImage: string = ''; // Propiedad para almacenar la URL de la imagen del encabezado
   constructor(
     private productService: ProductService,
     private route: ActivatedRoute
@@ -40,6 +41,7 @@ export class CardProductComponent implements OnInit {
       if (categories) {
         this.productService.getProductsByCategory(categories).subscribe(dato => {
           this.products = dato;//por aca anda el error
+          this.updateHeaderImage(categories)
         }, error =>{
           console.error('Error al obtener la ruta',error)
         });
@@ -47,6 +49,19 @@ export class CardProductComponent implements OnInit {
     });
 
   }
+
+    // Nueva función para actualizar la imagen del encabezado
+    updateHeaderImage(category: string) {
+      // Lógica para determinar la imagen del encabezado según la categoría
+      if (category === 'vinos') {
+        this.headerImage = '../assets/img/publi/vinos-header.jpg';
+      } else if (category === 'gaseosas') {
+        this.headerImage = '../assets/img/gaseosas/uvas.jpeg';
+      } else {
+        // Si la categoría no coincide, puedes establecer una imagen predeterminada o dejarla en blanco
+        this.headerImage = '';
+      }
+    }
   // //Metodo para traer todas las variedades disponibles
   // getVarieties(){
   //  this.productService.getWinesByVarieties().subscribe(varieties =>{

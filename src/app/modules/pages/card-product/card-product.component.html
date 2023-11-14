@@ -10,8 +10,14 @@
     </div>
   </div>
 </div> -->
+<header class="header">
+  <div class="conteiner-img">
+    <img [src]="headerImage" alt="Header Image">
+  </div>
+</header>
+  
 
-<h2>Lista de productos</h2>
+<!-- <h2>Lista de productos</h2> -->
 <div class="product-card">
   <div class="card" *ngFor="let product of products">
     <img [src]="product.img" alt="{{ product.name }}">
