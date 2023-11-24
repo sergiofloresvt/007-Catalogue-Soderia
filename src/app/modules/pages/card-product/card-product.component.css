@@ -43,12 +43,16 @@
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-
+  .card img {
+    width: 7rem; /* Establece el ancho deseado para las imágenes */
+    height: 18rem; /* Establece la altura deseada para las imágenes */
+    object-fit: cover; /* Ajusta la imagen manteniendo su relación de aspecto y cubriendo el contenedor */
+  }
 
   img{
     padding: 5px;
-    width: 50%;
-    height: 75%;
+    width: 45%;
+    height: 45%;
     margin: auto;
     display: block;
 

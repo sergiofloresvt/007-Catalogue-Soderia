@@ -20,18 +20,40 @@
 <!-- <h2>Lista de productos</h2> -->
 <div class="product-card">
   <div class="card" *ngFor="let product of products">
-    <img [src]="product.img" alt="{{ product.name }}">
+    <img  [src]="product.img" alt="{{ product.name }}">
     <div class="card-body">
       <h5 class="card-title">{{ product.name }}</h5>
      <p>{{product.variety}}</p>
       <p class="card-text">{{ product.marca }}</p>
       <div class="boton">Añadir Carro</div>
+      <!-- <a [routerLink]="['/detail', product.id]">Detalle</a> -->
+      <button (click)="selectProduct(product)">detalle</button>
     </div>
   </div>
 
 
-
+ 
   
+<!--Prueba 22-->
+
+<div  class="product-card" > 
+<div class="card"  *ngIf="selectedProduct">
+  <!-- Aquí puedes mostrar los detalles del producto seleccionado -->
+  <img [src]="selectedProduct.img" alt="{{ selectedProduct.name }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ selectedProduct.name }}</h5>
+    <p>{{ selectedProduct.variety }}</p>
+    <p class="card-text">{{ selectedProduct.marca }}</p>
+    <p>ID: {{ selectedProduct.id }}</p>
+    <!-- <p>Descripción: {{ selectedProduct.description }}</p> -->
+    <!-- Otros detalles del producto que desees mostrar -->
+    <div class="boton">Añadir Carro</div>
+    
+  </div>
+</div>
+</div>
+<!--Funcionando-->
+
 
 
 

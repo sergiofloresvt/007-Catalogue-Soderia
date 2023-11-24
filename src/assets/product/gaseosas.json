@@ -1,24 +1,102 @@
 [
     {
       "id": 1,
-      "name": "Coca-Cola",
+      "name": "Coca-Cola 1,5Lts",
       "marca": "The Coca-Cola Company",
       "description": "Refrescante gaseosa con sabor a cola.",
-      "img": "/assets/img/gaseosas/coca.jpg"
+      "img": "/assets/img/gaseosas/cocacola.jpeg"
     },
     {
       "id": 2,
-      "name": "Sprite",
+      "name": "Sprite lima-limon 1,5Lts",
       "marca": "The Coca-Cola Company",
       "description": "Gaseosa con sabor de limónada.",
       "img":"/assets/img/gaseosas/sprite.jpeg"
     },
     {
-      "id": 4,
-      "name": "Fanta Naranja",
+      "id": 3,
+      "name": "Fanta Naranja 1,5Lts",
       "marca": "The Coca-Cola Company",
       "description": "Gaseosa con refrescante sabor a naranja.",
       "img": "/assets/img/gaseosas/fanta.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "7UP 1,5Lts",
+      "marca": "PepsiCo",
+      "description": "Gaseosa con refrescante sabor a lima-limon.",
+      "img": "/assets/img/gaseosas/7up.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Pepsi 1,5Lts",
+      "marca":  "PepsiCo",
+      "description": "Gaseosa con refrescante sabor a cola.",
+      "img": "/assets/img/gaseosas/pepsi.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Paso de los toros tonica 1,5Lts",
+      "marca":  "PepsiCo",
+      "description": "Gaseosa con refrescante sabor a tonica.",
+      "img": "/assets/img/gaseosas/pasotoros-tonica.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Paso de los Toros pomelo 1,5Lts",
+      "marca":  "PepsiCo",
+      "description": "Gaseosa con refrescante sabor a naranja.",
+      "img": "/assets/img/gaseosas/pasotoros-pomelo.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "H2O naranja 1,5Lts",
+      "marca":  "PepsiCo",
+      "description": "Gaseosa con refrescante sabor a naranja.",
+      "img": "/assets/img/gaseosas/h2o-naranja.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "H2O Lima 1,5Lts",
+      "marca":  "PepsiCo",
+      "description": "Gaseosa con refrescante sabor a naranja.",
+      "img": "/assets/img/gaseosas/h2o-limon.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Villavicencio Agua 1,5Lts",
+      "marca": "Danone",
+      "description": "Gaseosa con refrescante sabor a naranja.",
+      "img": "/assets/img/gaseosas/villavicencio-agua.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Power Ade Frutos Tropicales 1,5Lts",
+      "marca": "The Coca-Cola Company",
+      "description": "Gaseosa con refrescante sabor a naranja.",
+      "img": "/assets/img/gaseosas/powerade-frutos.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Power Ade Mountain Blast 1,5Lts",
+      "marca": "The Coca-Cola Company",
+      "description": "Gaseosa con refrescante sabor a naranja.",
+      "img": "/assets/img/gaseosas/powerade-blue.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Levite Naranja 1,5Lts",
+      "marca": "Danone",
+      "description": "Gaseosa con refrescante sabor a naranja.",
+      "img": "/assets/img/gaseosas/levite-naranja.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Levite Naranja 1,5Lts",
+      "marca": "Danone",
+      "description": "Gaseosa con refrescante sabor a pomelo.",
+      "img": "/assets/img/gaseosas/levite-pomelo.jpeg"
     }
+
   ]
   

@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Brahma Chopp",
+        "marca": "Cerveceria Quilmes",
+        "category": "cerveza",
+        "variety":"",
+        "description": "",
+        "img": "/assets/img/cervezas-latas/brahma-lata.jpeg"
+      }
+]

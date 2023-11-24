@@ -1,47 +1,84 @@
 [
   {
     "id": 1,
-    "name": "Vino Tinto Reserva",
-    "marca": "Bodega A",
+    "name": "Dada 2 ",
+    "marca": "Finca las Moras",
     "category": "Vinos",
-    "variety":"Malbec-Suavignot",
-    "description": "Un vino tinto con cuerpo y sabor intenso.",
-    "img": "/assets/img/vinos/estanciamendoza.jpg"
+    "variety":"Merlot",
+    "description": "Elegante vino elaborado con uvas de color rojo profundo. Su paso por roble francés y americano de tostado fuerte le otorgan aromas a mokka que se integran en boca con frutas negras, moras y cassis.",
+    "img": "/assets/img/vinos/dada-2.jpeg"
   },
   {
     "id": 2,
-    "name": "Chardonnay Premium",
-    "marca": "Bodega B",
+    "name": "Alma Mora Malbec",
+    "marca": "Finca las Moras",
     "category": "Vinos",
-    "variety":"Chardonnay",
-    "description": "Un vino blanco seco y elegante con notas de frutas tropicales.",
-    "img": "/assets/img/vinos/estanciamendoza.jpg"
+    "variety":"Malbec",
+    "description": "De color rojo intenso. Sabor a frambuesas, ciruelas y vainilla. Textura suave y final muy sabroso.",
+    "img": "/assets/img/vinos/almamora2.jpeg"
   },
   { 
     "id": 3,
-    "name": "Merlot Clásico",
-    "marca": "Bodega C",
+    "name": "Estancia Mendoza",
+    "marca": "Estancia Mendoza",
     "category": "Vinos",
-    "variety":"Syrah",
-    "description": "Un vino tinto suave y afrutado con matices de ciruela y vainilla.",
+    "variety":"Merlot",
+    "description": "Rojo rubi con reflejos violáceos. Nariz: Aromas de frutos rojos, cervezas y moras combinados con notas pimientos asados y especias",
     "img": "/assets/img/vinos/estanciamendoza.jpg"
   },
   {
     "id": 4,
-    "name": "Malbec ",
-    "marca": "Bodega D",
+    "name": "Elementos Cabernet-Sauvignon ",
+    "marca": "Elemntos",
     "category": "Vinos",
-    "variety":"Malbec",
-    "description": "Un Malbec de alta gama con cuerpo y complejidad.",
-    "img": "/assets/img/vinos/estanciamendoza.jpg"
+    "variety":"Cabernet Sauvignon",
+    "description": "De color rojo rubí con destellos violáceos. Tonalidades intensas, profundas y brillantes. Con aroma frutado y especiado: cassis, clavo de olor, pimiento rojo. Suave aporte de madera que amalgama con las características frutales de la uva. De taninos dulces y redondos.",
+    "img": "/assets/img/vinos/elementos-cabernet.jpeg"
   },
   {
     "id": 5,
-    "name": "Malbec Reserva Especial",
-    "marca": "Bodega D",
+    "name": "Elementos Syrah",
+    "marca": "Elemntos",
+    "category": "Vinos",
+    "variety":"Syrah",
+    "description": "De color rojo con destellos violáceos y vivaz con profundas tonalidades negras. Su elevada intensidad aromática presenta notas especiadas como el cassis, el clavo de olor y la vainilla. De sabor carnoso, con taninos redondos, dulces y gran estructura. Se perciben especias y roble.",
+    "img": "/assets/img/vinos/elementos-syrah.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Trapiche Reserva",
+    "marca": "Trapiche",
     "category": "Vinos",
     "variety":"Malbec",
-    "description": "Un Malbec de alta gama con cuerpo y complejidad.",
-    "img": "/assets/img/vinos/estanciamendoza.jpg"
+    "description": "De un intenso color rojo violáceo, este Malbec expresa aromas dulces a moras y ciruelas, percibiéndose notas ahumadas con una elegante presencia de vainilla. En boca se percibe su textura aterciopelada y un final amable y persistente.",
+    "img": "/assets/img/vinos/trapiche-reserva.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Trapiche Medalla",
+    "marca": "Trapiche",
+    "category": "Vinos",
+    "variety":"Blend",
+    "description": "De color rojo profundo con matices bordó, este blend expresa aromas que recuerdan a pimientos ahumados, mezclados con un sutil toque de tabaco y especias, dado por su paso por roble. En boca tiene un final dulce y persistente, característico de un vino estructurado y complejo.",
+    "img": "/assets/img/vinos/trapiche-medalla.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Fond de Cave Reserva",
+    "marca": "Trapiche",
+    "category": "Vinos",
+    "variety":"Malbec",
+    "description": "De color rojo púrpura intenso con matíces rubí, este Malbec expresa aromas a mermelada de frutas negras y liqueur, con un toque elegante de humo, vainilla y chocolate. En boca tiene un gusto seco, con un final largo y aterciopelado.",
+    "img": "/assets/img/vinos/fonddecave-malbec.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Fond de Cave Reserva",
+    "marca": "Trapiche",
+    "category": "Vinos",
+    "variety":"Cabernet Sauvignon",
+    "description": "De color rojo profundo con tintes negruzcos, este vino posee un buen equilibrio entre profundidad y potencia. Expresa aromas de cassis y dulce de frambuesas, con un toque elegante ahumado con sabor a pimiento asado y chocolate. En boca se lo encuentra dulce, complejo y muy largo.",
+    "img": "/assets/img/vinos/fonddecave-sauvignon.jpeg"
   }
+  
 ]

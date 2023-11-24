@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
-import { Observable, map } from 'rxjs';
+import { Observable, catchError, map, of } from 'rxjs';
 import { Product } from '../model/product';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
-  private varieties: Product []=[]
+  
   winesVarieties: Product[]=[]
 
   constructor(
@@ -52,8 +52,13 @@ export class ProductService {
       map((productos) => productos.filter((product) => product.variety === variety))
     );
 }
+getProductById(id: number): Observable<Product> {
+  const url = `assets/product/vinos`;
 
-  
+  return this.http.get<Product>(`${url}/${id}.json`);
+}
+//prueba 22
+
 
 
 }

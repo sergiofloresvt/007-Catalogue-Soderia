@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../model/product';
 import { ProductService } from '../../services/product.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 
 @Component({
@@ -16,14 +16,17 @@ export class CardProductComponent implements OnInit {
   winesVarieties: Product []=[];
 
   headerImage: string = ''; // Propiedad para almacenar la URL de la imagen del encabezado
+
+  selectedProduct: Product | undefined;
   constructor(
     private productService: ProductService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private router: Router
   ){}
   ngOnInit(): void {
     this.RoutesNav();
     // this.getVarieties();
-
+    this.getProduct();
     // this.productService.getProducts().subscribe((products) => {
     //   this.products = products;
     // });
@@ -31,7 +34,7 @@ export class CardProductComponent implements OnInit {
   }
 
   /*Metodo para enrutar lo selecionado en la nav
-  tomando el archivo json y compiladolo en la tarjeta card
+  tomando el archivo json y compilandolo en la tarjeta card
   para ahorra el trabajo de crear multiples componete para la vista de 
   todos los productos ya que todos llevan un estructura igual  */
   
@@ -40,7 +43,7 @@ export class CardProductComponent implements OnInit {
       const categories = params.get('categories');
       if (categories) {
         this.productService.getProductsByCategory(categories).subscribe(dato => {
-          this.products = dato;//por aca anda el error
+          this.products = dato;
           this.updateHeaderImage(categories)
         }, error =>{
           console.error('Error al obtener la ruta',error)
@@ -62,20 +65,27 @@ export class CardProductComponent implements OnInit {
         this.headerImage = '';
       }
     }
-  // //Metodo para traer todas las variedades disponibles
-  // getVarieties(){
-  //  this.productService.getWinesByVarieties().subscribe(varieties =>{
-  //   this.varieties = varieties;
-  //  })
-  // }
+    //Metodo para traer una producto por id 
+    getProduct(){
+      this.productService.getProducts().subscribe((products) => {
+        this.products = products;
+      });
+    }
+    selectProduct(product: Product) {
+      // Cuando se selecciona una tarjeta, actualiza el producto seleccionado
+      this.selectedProduct = product;
+    }
 
-  // onSelectVariety(variety: string) {
-  //   this.productService.getProductsByVariety(variety).subscribe((filteredProducts) => {
-  //     this.winesVarieties = filteredProducts;
-  //   });
-  // }
+    // selectProduct(product: any): void {
+    //   // Navegar a la página de detalle con el id del producto
+    //   this.router.navigate(['/detail', product.id]);
+    // }
 
-}
+
+  }
+
+
+
 
 
 

@@ -15,6 +15,7 @@ import { ProducrDetailComponent } from './modules/pages/producr-detail/producr-d
 import { CarruselComponent } from './modules/pages/carrusel/carrusel.component';
 import { WineVarietyComponent } from './modules/pages/wine-variety/wine-variety.component';
 import { SidenavComponent } from './modules/shared/sidenav/sidenav.component';
+import { BtnWspComponent } from './modules/shared/btn-wsp/btn-wsp.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { SidenavComponent } from './modules/shared/sidenav/sidenav.component';
 
     WineVarietyComponent,
     SidenavComponent,
+    BtnWspComponent,
   
   ],
   imports: [

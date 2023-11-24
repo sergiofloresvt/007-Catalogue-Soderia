@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Brahma Chopp",
+        "marca": "Cerveceria Quilmes",
+        "category": "cerveza",
+        "variety":"",
+        "description": "",
+        "img": "/assets/img/cervezas/brahma-1.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Quilmes Bajo Cero",
+        "marca": "Cerveceria Quilmes",
+        "category": "cerveza",
+        "img": "/assets/img/cervezas/quilmes-1.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Corona 710ml",
+        "marca": "Anheuser-Busch InBev",
+        "category": "cerveza",
+        "img": "/assets/img/cervezas/corona-710.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Stella Artois ",
+        "marca": "Anheuser-Busch InBev",
+        "category": "cerveza",
+        "img": "/assets/img/cervezas/stella-botella.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Santa fe  ",
+        "marca": "Compañía de Cervecerías Unidas",
+        "category": "cerveza",
+        "img": "/assets/img/cervezas/santafe-botella.jpeg"
+      }
+
+    
+]

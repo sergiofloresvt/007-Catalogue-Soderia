@@ -4,6 +4,7 @@ import { CardProductComponent } from './modules/pages/card-product/card-product.
 import { HomeComponent } from './modules/pages/home/home.component';
 
 import { WineVarietyComponent } from './modules/pages/wine-variety/wine-variety.component';
+import { ProducrDetailComponent } from './modules/pages/producr-detail/producr-detail.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -12,6 +13,7 @@ const routes: Routes = [
   // { path: 'productos/:categories,variety', component: CardProductComponent},
 
   { path: 'productos/vinos/:variety', component: WineVarietyComponent},
+  { path: 'detail/:id', component: ProducrDetailComponent },
 ];
 
 @NgModule({
