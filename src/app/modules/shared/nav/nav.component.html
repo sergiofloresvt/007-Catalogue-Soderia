@@ -34,10 +34,10 @@
 <!--INICIO DE LA MENU-->
 
 <nav class="navbar">
-  <div class="logo">PUCCINI</div>
+  <div class="logo"></div>
   <ul class="nav-links">
     <li>
-      <a class="nav-link" [routerLink]="'/home'">HOME</a>
+      <a class="nav-link" [routerLink]="'/home'">Inicio</a>
     </li>
     <li class="dropdown">
       <a class="nav-link" [routerLink]="['/productos', 'vinos']">Vinos</a>
@@ -46,18 +46,28 @@
       </div>
       
     </li>
+ 
     <li>
       <a class="nav-link" [routerLink]="['/productos', 'gaseosas']">Gaseosas</a>
     </li>
-    <li>
+    <li class="dropdown">
       <a class="nav-link" [routerLink]="['/productos', 'cervezas']">Cervezas</a>
-      <ul>
-        <li>
-          <a class="nav-link" [routerLink]="['/productos', 'cervezas-latas']">Latas</a>
-        </li>
+
+      <ul >
+        <div class="dropdown-content">
+          <a  class="nav-link" [routerLink]="['/productos', 'cervezas-latas']">Latas</a>
+        </div>
+          
+        
       </ul>
+
     </li>
-    
+    <li>
+      <a class="nav-link" [routerLink]="['/productos', 'espirituosas']">Whisky-piscos</a>
+    </li>
+    <li>
+      <a class="nav-link" [routerLink]="['/productos', 'aperitivos']">Aperitivos</a>
+    </li>
   </ul>
 </nav>
 

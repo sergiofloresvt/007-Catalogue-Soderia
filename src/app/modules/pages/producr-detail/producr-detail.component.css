@@ -1,0 +1,86 @@
+/* Contenedor principal */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+
+
+}
+
+/* Detalles del producto */
+.product-detail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: right;
+
+}
+
+/* Imagen del producto */
+.product-image {
+width: 60%;
+height: auto;
+}
+img{
+  
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+
+
+
+/* Información del producto */
+.product-info {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  
+  width: 58%;
+  float: left;
+}
+
+/* Título del producto */
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Parámetros del producto */
+p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #1b2f53;
+
+}
+
+/* Descripción del producto */
+.description{
+  margin-top: 20px;
+  border: 1px solid red;
+  padding: 15px;
+  background-color: rgba(255, 0, 0, 0.381);
+  margin-left: 15px;
+}
+span {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+ 
+}
+
+/* Puedes agregar estilos adicionales para otras propiedades del producto si es necesario */
+
+  .loading {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    margin-top: 20px;
+  }
+  #btn-detalle{
+    margin-top: 5px;
+    
+  }

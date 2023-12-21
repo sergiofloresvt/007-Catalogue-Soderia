@@ -1,3 +1,20 @@
 <!-- <app-carrusel></app-carrusel> -->
 <!-- <app-card-product></app-card-product> -->
 
+<!-- En tu archivo de plantilla HTML (home.component.html) -->
+<!-- home.component.html -->
+
+<div class="product-card">
+    <div class="card" *ngFor="let product of products">
+      <img  [src]="product.img" alt="{{ product.name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+       <p>{{product.variety}}</p>
+        <p class="card-text">{{ product.marca }}</p>
+        <div class="boton">Añadir Carro</div>
+        <!-- <a [routerLink]="['/detail', product.id]">Detalle</a> -->
+        <button *ngIf="product.category === 'Vinos'"  (click)="selectProduct(product)">detalle</button>
+      </div>
+    </div>
+
+  

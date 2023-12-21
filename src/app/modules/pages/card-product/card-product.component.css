@@ -1,9 +1,9 @@
 .header {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   /* background-color: #a3a9b4; */
-  height: 15rem;
+
 
 }
 .conteiner-img{
@@ -11,6 +11,10 @@
   height: 100%;
 
 }
+.conteiner-img img{
+  width: 50rem;
+}
+
 
 
 .product-card{
@@ -44,15 +48,15 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
   .card img {
-    width: 7rem; /* Establece el ancho deseado para las imágenes */
+    width: 10rem; /* Establece el ancho deseado para las imágenes */
     height: 18rem; /* Establece la altura deseada para las imágenes */
     object-fit: cover; /* Ajusta la imagen manteniendo su relación de aspecto y cubriendo el contenedor */
   }
 
   img{
     padding: 5px;
-    width: 45%;
-    height: 45%;
+    width: 25%;
+    height: 20%;
     margin: auto;
     display: block;
 
@@ -89,7 +93,10 @@
     background-color: #24679f;
     box-shadow: 0px 0px 10px rgb(14, 76, 128) inset;
 } 
-
+#btn-detalle{
+  margin-top: 5px;
+  
+}
   /*MENU LATERAL*/
   .sidebar {
     width: 200px; /* Ancho de la barra lateral */

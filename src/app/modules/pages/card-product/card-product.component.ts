@@ -18,6 +18,8 @@ export class CardProductComponent implements OnInit {
   headerImage: string = ''; // Propiedad para almacenar la URL de la imagen del encabezado
 
   selectedProduct: Product | undefined;
+//25/11
+
   constructor(
     private productService: ProductService,
     private route: ActivatedRoute,
@@ -57,9 +59,22 @@ export class CardProductComponent implements OnInit {
     updateHeaderImage(category: string) {
       // Lógica para determinar la imagen del encabezado según la categoría
       if (category === 'vinos') {
-        this.headerImage = '../assets/img/publi/vinos-header.jpg';
+        this.headerImage = '../assets/img/publi/vinos-wines.png';
+
+      } else if (category === 'cervezas'){
+        this.headerImage = '../assets/img/publi/cervezas-foam.png';
+
       } else if (category === 'gaseosas') {
-        this.headerImage = '../assets/img/gaseosas/uvas.jpeg';
+        this.headerImage = '../assets/img/publi/gaseosas-frut.png';
+
+      } else if (category === 'espirituosas') {
+        this.headerImage = '../assets/img/publi/whisky-liquid.png';
+
+      } else if (category === 'aperitivos') {
+        this.headerImage = '../assets/img/publi/aperitivos-liquid2.png';
+      }
+      else if (category === 'cervezas-latas') {
+        this.headerImage = '../assets/img/publi/cervezas-foam.png';
       } else {
         // Si la categoría no coincide, puedes establecer una imagen predeterminada o dejarla en blanco
         this.headerImage = '';
@@ -73,7 +88,9 @@ export class CardProductComponent implements OnInit {
     }
     selectProduct(product: Product) {
       // Cuando se selecciona una tarjeta, actualiza el producto seleccionado
-      this.selectedProduct = product;
+      // this.selectedProduct = product;
+      
+      this.router.navigate(['/detail', product.id]);
     }
 
     // selectProduct(product: any): void {

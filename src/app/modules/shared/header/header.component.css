@@ -3,11 +3,16 @@
     justify-content: center;
     align-items: center;
     background-color: #001844;
-    height: 150px;
+    height: 250px;
   }
   img{
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 50%;
 
   }
-  
+  span{
+
+    width: 4rem;
+    height: 100%;
+    
+  }

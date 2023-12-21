@@ -11,9 +11,10 @@ import { Product } from '../../model/product';
 export class ProducrDetailComponent implements OnInit{
   // productId: number = 0;
   // product?: Product 
-  selectedProduct: Product | undefined;
+  // selectedProduct: Product | undefined;
 
-  products: Product[] =[];
+  product: Product | undefined;
+  
 constructor(
   private productService: ProductService,
   private route: ActivatedRoute
@@ -22,10 +23,23 @@ constructor(
 
   ngOnInit(): void {
   
+    const productId = this.route.snapshot.paramMap.get('id');
+    if(productId !== null){
 
-  }
+      const id = +productId
+      this.productService.getProductById(id).subscribe(product => {
+        this.product = product;
+      });
+    }else {
 
-
-
+    }
+  
+    }
 
 }
+  
+
+
+
+
+

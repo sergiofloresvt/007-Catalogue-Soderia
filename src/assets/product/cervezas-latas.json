@@ -1,11 +1,74 @@
 [
-    {
-        "id": 1,
-        "name": "Brahma Chopp",
-        "marca": "Cerveceria Quilmes",
-        "category": "cerveza",
-        "variety":"",
-        "description": "",
-        "img": "/assets/img/cervezas-latas/brahma-lata.jpeg"
-      }
+  {
+    "id": 1,
+    "name": "Brahma Lata",
+    "marca": "Cerveceria Quilmes",
+    "category": "Cerveza",
+    "variety": "Rubia",
+    "description": "Descripción de Brahma Lata.",
+    "img": "/assets/img/cervezas-latas/brahma-lata.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Corona Lata",
+    "marca": "Anheuser-Busch InBev",
+    "category": "Cerveza",
+    "variety": "Rubia",
+    "description": "Descripción de Corona Lata.",
+    "img": "/assets/img/cervezas-latas/corona-lata.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Heineken Lata",
+    "marca": "Heineken International",
+    "category": "Cerveza",
+    "variety": "Rubia",
+    "description": "Descripción de Heineken Lata.",
+    "img": "/assets/img/cervezas-latas/heineken-lata.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Imperial Golden",
+    "marca": "Compañía de Cervecerías Unidas",
+    "category": "Cerveza",
+    "variety": "Golden",
+    "description": "Descripción de Imperial Golden.",
+    "img": "/assets/img/cervezas-latas/imperial-golden.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Imperial Roja",
+    "marca": "Compañía de Cervecerías Unidas",
+    "category": "Cerveza",
+    "variety": "Roja",
+    "description": "Descripción de Imperial Roja.",
+    "img": "/assets/img/cervezas-latas/imperial-roja.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Imperial IPA",
+    "marca": "Compañía de Cervecerías Unidas",
+    "category": "Cerveza",
+    "variety": "IPA",
+    "description": "Descripción de Imperial IPA.",
+    "img": "/assets/img/cervezas-latas/imperial-ipa.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Quilmes Lata",
+    "marca": "Cerveceria Quilmes",
+    "category": "Cerveza",
+    "variety": "Rubia",
+    "description": "Descripción de Quilmes Lata.",
+    "img": "/assets/img/cervezas-latas/quilmes-lata.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Santa Fe Lata",
+    "marca": "Santa Fe",
+    "category": "Cerveza",
+    "variety": "Rubia",
+    "description": "Descripción de Santa Fe Lata.",
+    "img": "/assets/img/cervezas-latas/santafe-lata.jpeg"
+  }
 ]

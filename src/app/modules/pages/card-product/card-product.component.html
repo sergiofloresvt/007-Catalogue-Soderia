@@ -10,11 +10,11 @@
     </div>
   </div>
 </div> -->
-<header class="header">
+<div class="header">
   <div class="conteiner-img">
     <img [src]="headerImage" alt="Header Image">
   </div>
-</header>
+</div>
   
 
 <!-- <h2>Lista de productos</h2> -->
@@ -27,7 +27,7 @@
       <p class="card-text">{{ product.marca }}</p>
       <div class="boton">Añadir Carro</div>
       <!-- <a [routerLink]="['/detail', product.id]">Detalle</a> -->
-      <button (click)="selectProduct(product)">detalle</button>
+      <button *ngIf="product.category === 'Vinos'"  (click)="selectProduct(product)" id="btn-detalle">detalle</button>
     </div>
   </div>
 
@@ -36,22 +36,22 @@
   
 <!--Prueba 22-->
 
-<div  class="product-card" > 
-<div class="card"  *ngIf="selectedProduct">
+<!-- <div  class="product-card" > 
+<div class="card"  *ngIf="selectedProduct"> -->
   <!-- Aquí puedes mostrar los detalles del producto seleccionado -->
-  <img [src]="selectedProduct.img" alt="{{ selectedProduct.name }}">
+  <!-- <img [src]="selectedProduct.img" alt="{{ selectedProduct.name }}">
   <div class="card-body">
     <h5 class="card-title">{{ selectedProduct.name }}</h5>
     <p>{{ selectedProduct.variety }}</p>
     <p class="card-text">{{ selectedProduct.marca }}</p>
-    <p>ID: {{ selectedProduct.id }}</p>
+    <p>ID: {{ selectedProduct.id }}</p> -->
     <!-- <p>Descripción: {{ selectedProduct.description }}</p> -->
     <!-- Otros detalles del producto que desees mostrar -->
-    <div class="boton">Añadir Carro</div>
+    <!-- <div class="boton">Añadir Carro</div>
     
   </div>
 </div>
-</div>
+</div> -->
 <!--Funcionando-->
 
 

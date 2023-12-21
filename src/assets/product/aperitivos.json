@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Amargo Obrero",
+      "category": "Bebida Amarga",
+      "description": "Descripción de Amargo.",
+      "img": "/assets/img/aperitivos/amargo.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Cinzano",
+      "category": "Bebida Amarga",
+      "description": "Descripción de Cinzano.",
+      "img": "/assets/img/aperitivos/cinzano.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Fernet",
+      "category": "Bebida Amarga",
+      "description": "Descripción de Fernet.",
+      "img": "/assets/img/aperitivos/fernet-1.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Gancia",
+      "category": "Bebida Amarga",
+      "description": "Descripción de Gancia.",
+      "img": "/assets/img/aperitivos/gancia.jpg"
+    }
+  ]
+  

@@ -1,0 +1,20 @@
+
+  <div class="container">
+    <div class="product-detail" *ngIf="product">
+      <div class="product-image">
+        <img [src]="product.img" alt="{{ product.name }}">
+      </div>
+      <div class="product-info">
+        <h2> Vino {{ product.name }} {{ product.variety }} tinto 750ml</h2>
+        <p> {{ product.marca }}</p>
+        <div class="description">
+          <span>{{product.description}}</span>
+        </div>
+        
+      </div>
+    </div>
+  </div> 
+
+  <div *ngIf="!product">
+    <p>Cargando...</p>
+  </div>

@@ -10,6 +10,7 @@
               <p class="card-text">{{ product.variety }}</p>
               <p class="card-text"> {{ product.marca }}</p>
               <div class="boton">Añadir Carro</div>
+              <button *ngIf="product.category === 'Vinos'"  (click)="selectProduct(product)">detalle</button>
             </div>
         </div>
     </div>

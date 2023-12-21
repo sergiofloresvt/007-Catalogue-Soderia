@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "name": "Chivas 12 años",
+      "marca": "Chivas",
+      "category": "Espirituosa",
+      "description": "Descripción de Chivas 12 años.",
+      "img": "/assets/img/espirituosas/chivas-12.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Ginebra Llave",
+      "marca": "Llave",
+      "category": "Ginebra",
+      "description": "Descripción de Ginebra Llave.",
+      "img": "/assets/img/espirituosas/ginebra-llave.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Johnnie Black Label",
+      "marca": "Johnnie Walker",
+      "description": "Descripción de Johnnie Black Label.",
+      "img": "/assets/img/espirituosas/johnnie-black.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Johnnie Red Label",
+      "marca": "Johnnie Walker",
+      "category": "Whisky",
+      "description": "Descripción de Johnnie Red Label.",
+      "img": "/assets/img/espirituosas/johnnie-red.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "J&B",
+      "marca": "J&B",
+      "category": "Whisky",
+      "description": "Descripción de J&B.",
+      "img": "/assets/img/espirituosas/jyb.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Ron Havana",
+      "marca": "Havana",
+      "category": "Ron",
+      "description": "Descripción de Ron Havana.",
+      "img": "/assets/img/espirituosas/ron-havana.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Smirnoff Frutos Rojos",
+      "marca": "Smirnoff",
+      "category": "Vodka",
+      "variety": "Frutos Rojos",
+      "description": "Descripción de Smirnoff Frutos Rojos.",
+      "img": "/assets/img/espirituosas/smirnoff-frutos.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Smirnoff Manzana",
+      "marca": "Smirnoff",
+      "category": "Vodka",
+      "variety": "Manzana",
+      "description": "Descripción de Smirnoff Manzana.",
+      "img": "/assets/img/espirituosas/smirnoff-manzana.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Tequila Cuervo",
+      "marca": "Cuervo",
+      "category": "Tequila",
+      "description": "Descripción de Tequila Cuervo.",
+      "img": "/assets/img/espirituosas/tequila-cuervo.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "White Horse",
+      "marca": "White Horse",
+      "category": "Whisky",
+      "description": "Descripción de White Horse.",
+      "img": "/assets/img/espirituosas/whitehorse.jpeg"
+    }
+  ]
+  
